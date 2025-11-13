@@ -9,7 +9,7 @@ pages_build_output_dir = ".deploy"
 [[d1_databases]]
 binding = "DB"
 database_name = "tmarks-prod-db"
-database_id = "bdfa6639-e25d-4698-ad13-a4f95b8c4aa7"
+database_id = "ff29e946-55af-4512-a335-03ec5a131d8e"
 
 # KV namespaces
 # 注意: 需要先创建KV命名空间,然后填入正确的ID
@@ -19,11 +19,11 @@ database_id = "bdfa6639-e25d-4698-ad13-a4f95b8c4aa7"
 
 [[kv_namespaces]]
 binding = "RATE_LIMIT_KV"
-id = "请替换为实际的KV_ID"  # 需要先创建KV命名空间
+id = "b552d02e2ef84a57b9833736cff484d7"  # 需要先创建KV命名空间
 
 [[kv_namespaces]]
 binding = "PUBLIC_SHARE_KV"
-id = "请替换为实际的KV_ID"  # 需要先创建KV命名空间
+id = "bed91a6ca35d43d5a7d2dd13f5309039"  # 需要先创建KV命名空间
 
 # Environment variables
 # ⚠️ 安全警告: 敏感信息不应该提交到Git仓库!
